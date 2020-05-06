@@ -1,1 +1,11 @@
-/Users/hat/Library/Application Support/Code/User/keybindings.json
+// VSCode key bindings
+// Place your key bindings in this file to override the defaults
+[
+    // Allows codeblock to be ran in VScode using Jupyter without .jpy file
+    {
+        "key": "cmd+ctrl+C",
+        "command": "type",
+        "args": { "text": "# %%" },
+        "when": "editorTextFocus"
+      }
+]
